@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" role="img" aria-label="Student Developer | Apps and Data">
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="48%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <mask id="typingMask">
+      <rect width="900" height="150" fill="black" />
+      <rect x="114" y="38" width="0" height="62" rx="4" fill="white">
+        <animate attributeName="width" values="0;640;640;0;0" keyTimes="0;0.48;0.74;0.92;1" dur="7s" repeatCount="indefinite" />
+      </rect>
+    </mask>
+  </defs>
+
+  <rect x="8" y="8" width="884" height="134" rx="22" fill="#0f172a" />
+  <rect x="9" y="9" width="882" height="132" rx="21" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.75" />
+
+  <g filter="url(#softGlow)" opacity="0.42">
+    <circle cx="98" cy="74" r="18" fill="#22c55e">
+      <animate attributeName="r" values="14;22;14" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="802" cy="74" r="18" fill="#a855f7">
+      <animate attributeName="r" values="22;14;22" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <text x="114" y="86" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#accent)" mask="url(#typingMask)">
+    Student Developer | Apps &amp; Data
+  </text>
+
+  <rect x="114" y="42" width="4" height="56" rx="2" fill="#e2e8f0">
+    <animate attributeName="x" values="114;754;754;114;114" keyTimes="0;0.48;0.74;0.92;1" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;1;0;1" dur="0.75s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="450" y="121" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#94a3b8" letter-spacing="2">
+    WEB APPS  DATA  AUTOMATION
+  </text>
+</svg>
