@@ -34,6 +34,7 @@ for (const file of files) {
     positionByCommitClass,
     occupancyByCell,
   );
+  nextSvg = addSnakeEatMask(nextSvg);
 
   fs.writeFileSync(absolutePath, nextSvg);
 }
@@ -114,6 +115,25 @@ function rewriteCommitKeyframes(
   }
 
   return nextSvg;
+}
+
+function addSnakeEatMask(svg) {
+  const snakeRects = [...svg.matchAll(/<rect class="s (s[0-9a-z]+)"[^>]*\/>/g)].map((match) =>
+    match[0].replace('class="s ', 'class="s m '),
+  );
+
+  if (snakeRects.length === 0) {
+    throw new Error("Could not find snake body rectangles for the eat mask.");
+  }
+
+  const styleWithMask = svg.replace(
+    "</style>",
+    '.m{fill:#000;stroke:none}.c[class*=" "]{mask:url(#snake-eat-mask)}</style>',
+  );
+
+  const maskMarkup = `<defs><mask id="snake-eat-mask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="848" height="112"><rect x="0" y="0" width="848" height="112" fill="#fff"/>${snakeRects.join("")}</mask></defs>`;
+
+  return styleWithMask.replace("</style>", `</style>${maskMarkup}`);
 }
 
 function readSnakeOccupancyMap(svg, snakeLoopDurationMs) {
