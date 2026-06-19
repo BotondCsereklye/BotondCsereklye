@@ -2,7 +2,7 @@
 Profile setup:
 1. Put these files in your special GitHub profile repository: <your-github-username>/<your-github-username>.
 2. Enable GitHub Actions and run "Generate contribution snake" once.
-3. The workflow keeps the snake animation updated automatically every day.
+3. The workflow keeps the snake animation updated automatically every hour.
 -->
 
 <h1 align="center">Hi, I'm Botond Csereklye</h1>
