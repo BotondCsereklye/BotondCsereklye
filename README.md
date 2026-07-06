@@ -8,7 +8,6 @@ Profile setup:
 <h1 align="center">Hi, I'm Botond Csereklye</h1>
 
 
----
 
 ### About me
 
