@@ -28,14 +28,6 @@ I'm a student at Altekantonsschule, learning software by building practical proj
 | [LB_259](https://github.com/BotondCsereklye/LB_259) | Dataset project about smartphone use and wellbeing | Jupyter Notebook |
 
 
-### Current focus
-
-<p align="center">
-  <img alt="Student at Altekantonsschule" src="https://img.shields.io/badge/Student-Altekantonsschule-2563eb?style=for-the-badge" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/Code-JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=111827" />
-  <img alt="Dart" src="https://img.shields.io/badge/Code-Dart-0175c2?style=for-the-badge&logo=dart&logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/Code-Python-3776ab?style=for-the-badge&logo=python&logoColor=white" />
-</p>
 
 ---
 
