@@ -27,15 +27,6 @@ I'm a student at Altekantonsschule, learning software by building practical proj
 | [Graftcount](https://github.com/BotondCsereklye/Graftcount) | Dart project for counting and tracking | Dart |
 | [LB_259](https://github.com/BotondCsereklye/LB_259) | Dataset project about smartphone use and wellbeing | Jupyter Notebook |
 
-### Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./dist/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation showing this year's GitHub contributions" src="./dist/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
 
 ### Current focus
 
