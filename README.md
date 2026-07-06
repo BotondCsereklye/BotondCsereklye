@@ -7,17 +7,6 @@ Profile setup:
 
 <h1 align="center">Hi, I'm Botond Csereklye</h1>
 
-<p align="center">
-  <img src="./assets/student-title.svg" alt="Animated text: Student Developer | Apps and Data" width="760" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/BotondCsereklye?tab=repositories">Repositories</a>
-  |
-  <a href="https://github.com/BotondCsereklye?tab=projects">Projects</a>
-  |
-  <a href="https://github.com/BotondCsereklye">Profile</a>
-</p>
 
 ---
 
