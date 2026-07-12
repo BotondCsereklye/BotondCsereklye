@@ -11,11 +11,12 @@ Profile setup:
 
 ### About me
 
-I'm a student at Altekantonsschule, learning software by building practical projects.
+I'm a 2nd-year IMS (Informatikmittelschule) student from Aargau, Switzerland, learning software by building practical projects.
 
-- Building web apps, Android apps, small tools, and data projects
-- Interested in JavaScript, Dart, Python, and useful automation
-- Focused on turning school and personal ideas into working software
+- Focused on Python, C#, and some machine learning
+- Interested in cybersecurity
+- Comfortable with Git, Docker, and SQL
+- Turning school and personal ideas into working software
 
 ### Featured projects
 
