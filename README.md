@@ -1,8 +1,8 @@
 # Hi, I'm Botond Csereklye
 
-**3rd-year IMS student from Aargau, Switzerland — aspiring application developer.**
+**3rd-year IMS student from Aargau, Switzerland — working toward the Swiss Federal VET Diploma in Application Development (EFZ) and the Berufsmaturität (BM).**
 
-IMS (*Informatikmittelschule*) is a full-time Swiss IT school leading to a federal IT diploma in application development. I'm looking for an **internship in application development**, where I mostly build full-stack and backend software with tests, Docker, and CI.
+IMS (*Informatikmittelschule*) is a full-time Swiss IT program that combines application-development training with the BM. I'm looking for an **internship in application development**, where I mostly build full-stack and backend software with tests, Docker, and CI.
 
 ### Skills
 
